@@ -26,3 +26,9 @@ tasks:
     cmds:
       - rm -f go.sum
       - go mod tidy
+
+#  ifeq ($(RACE), 1)
+#  @CC=gcc CXX=g++ go test ./... -race -covermode=atomic -coverprofile=coverage.txt -timeout 5m
+#  else
+#  @CC=gcc CXX=g++ go test ./... -covermode=atomic -coverprofile=coverage.txt -timeout 1m
+#  endif
