@@ -1,7 +1,7 @@
-package golibrarytemplate
+package main
 
 import "fmt"
 
-func ExampleFunc() {
+func main() {
 	fmt.Println("Start Here...")
 }

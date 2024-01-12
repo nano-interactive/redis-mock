@@ -1,3 +1,3 @@
-module github.com/nano-interactive/go-library-template
+module github.com/nano-interctive/redis-mock
 
-go 1.19
+go 1.21
